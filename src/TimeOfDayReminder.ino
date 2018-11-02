@@ -16,6 +16,8 @@
 #define MINUTE                (unsigned int) 60L*SEC
 #define HOUR                  (unsigned int) 60L*MINUTE
 #define DAY                   (unsigned long) 24L*HOUR
+int hour=3;
+int minute=27;
 
 // =========WiFi parameters===========
 #define MAX_WIFI_ATTEMPTS     20
@@ -45,11 +47,18 @@ void setup() {
   wifiInit();
 #ifdef NEOPIXEL
   pixels.begin(); // This initializes the NeoPixel library.
+  pixels.setBrightness(50);
 #endif
 }
 
 // ===============LOOP================
 void loop()
 {
+showdisplay(0);
+delay(3000);
+for (int i = 0; i < 3; i++)
+  {
+    showdisplay(1);
+  }
 
 }

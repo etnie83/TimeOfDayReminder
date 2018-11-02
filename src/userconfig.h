@@ -12,15 +12,15 @@
 //#define MY_LANGUAGE            he-HE           // Platt in Hessisch_Platt
 #define DEBUG                 1
 // -- WLAN Settings -------------------------------
-#define SSID                  "YOUR-SSID"
-#define PASSWORD              "YOUR-PASSWORD"
+#define SSID                  "YOURSSID"
+#define PASSWORD              "YOURPASSWORD"
 
 #define NEOPIXEL
 // -- Neopixel Definitions ------------------------
   #ifdef NEOPIXEL
     #include <Adafruit_NeoPixel.h>
     #define PIN            2
-    #define NUMPIXELS      8
+    #define NUMPIXELS      60
   #endif
 // ------------------------------------------------
 
