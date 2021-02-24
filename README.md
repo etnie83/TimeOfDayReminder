@@ -1,4 +1,5 @@
-# GCalendarToESP
-An Arduino-Project to display the Time of Day and a breaktime reminder
+# TimeOfDayReminder
+An Arduino-Project to display the Time of Day and a breaktime reminder for the office
+but was canceled very fast.
 
-The project is constantly being developed and gets even more features
+The project is unmaintained at the moment and gets no more features
